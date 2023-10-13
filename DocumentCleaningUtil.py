@@ -1,6 +1,7 @@
 import openai
 import os
 
+
 def clean_document(document_path: str):
     file_content_string = None
     with open(document_path, 'r') as f:
